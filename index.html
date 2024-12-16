@@ -5,6 +5,41 @@
     <title>Aula 1</title>
 </head>
 <body>
-    <h1>Minha primeira aula 1</h1>
+    <div>
+        <h1>FORMULÁRIO DE CADASTRO</h1>
+    </div>
+
+    <div>
+        <form>
+            <div>
+                <label for="name">NOME: </label>
+                <input type="text" id="name" placeholder="NOME" />
+            </div>
+            <div>
+                <label for="lastName">SOBRENOME: </label>
+                <input type="text" id="lastName" placeholder="SOBRENOME" />
+            </div>
+            <div>
+                <label for="email">EMAIL: </label>
+                <input type="email" id="email" placeholder="E-MAIL" required />
+            </div>
+            <div>
+                <label for="age">IDADE: </label>
+                <input type="number" id="age" placeholder="IDADE">
+            </div>
+            <div>
+                <label for="gender">SEXO: </label>
+                <input type="radio" name="gender" id="gender" value="male" > HOMEM
+                <input type="radio" name="gender" id="gender" value="female" > MULHER
+                <input type="radio" name="gender" id="gender" value="other" > OUTRO
+            </div>
+
+            <div>
+                <button type="reset">LIMPAR</button>
+                <button type="submit">ENVIAR</button>
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>
